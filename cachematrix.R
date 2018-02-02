@@ -8,7 +8,7 @@
 ## setter for the data and the inverse matrix property
 
 makeCacheMatrix <- function(x = matrix()) {
-    m <- NULL
+    i <- NULL
     set <- function(y) {
         x <<- y
         i <<- NULL
